@@ -1,0 +1,385 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+a:hover{
+   
+    color: #1e5cd7;
+    cursor: pointer;
+}
+.enquiry{
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    background-color: #555;
+    color: white;
+    padding: 30px 10px;
+    margin: 5px 0;
+    z-index: 1;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.enquiry:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+p {
+    color: black;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 30px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(45, 27, 244);
+    color: white;
+    padding: 10px 30px;
+    margin: 8px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: darkorchid;
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    background: radial-gradient(white, rgb(166, 248, 245));
+
+}
+
+.header .row {
+    margin-top: 10px;
+}
+
+.gallery {
+    margin: 30px 0;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img {
+    width: 350px;
+    height: 300px;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img {
+    width: 250px;
+    height: 200px;
+}
+
+.sale {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 50px;
+    color: rgba(255, 123, 0, 0.949);
+}
+
+.sale::after {
+    content: '';
+    background: #1e5cd7;
+    width: 60px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 p {
+    font-size: 16px;
+}
+
+.rating .fa {
+    color: orange;
+}
+.button{
+   margin: 5px;
+   padding: 5px;
+ }
+#det{
+    border: none;
+    width: 100px;
+    color: blue;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+#det:hover{
+    text-decoration: none;
+    font-size: 18px;
+}
+#book{
+    color: white;
+    background-color: blue;
+    width: 100px;
+    padding: 5px;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 10px;
+   
+      
+}
+#book:hover{
+    color: yellow;
+    background-color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-1{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.button-1 #det{
+    margin: 5px 20px;
+    width: 150px;
+    font-size: 20px;
+}
+.button-1 #book{
+    margin: 5px 20px;
+    width: 150px;
+    font-size: 20px;
+}
+.col-4:hover {
+    transform: translateY(-5px);
+}
+
+.col-5 {
+    flex-basis: 50%;
+    padding: 20px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-5 img {
+    width: 100%;
+    height: 350px;
+
+}
+
+.col-5:hover {
+    transform: translateY(-5px);
+}
+
+.col-5 p {
+    font-size: 16px;
+}
+        /* ------ contact us ------- */
+.contact{
+    height: 400px;
+    margin: 10px 100px;
+    background-image: url(./new_york_building_city_skyscrapers_evening_28516_1366x768.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+.contact h1{
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.contact p{
+    color: rgba(255, 255, 255, 0.588);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.contact a {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-left: 88%;
+    margin-top: -80px;
+}
+
+
+    /* ------review -------*/
+.review{
+padding-top: 50px;
+}
+.review .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s ;
+}
+.review .col-3 img{
+    width: 60px;
+    height: fit-content;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.review .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+    font-size: 50px;
+    color: orange;
+}
+.col-3 p{
+    font-size: 15px;
+    margin: 15px 0;
+    color: #777;
+}
+.review .col-3 h3{
+    font-weight: 500;
+    color: #555;
+    font-size: 20px;
+}
+ 
+     /* -------  footer ------- */
+
+.footer{
+    background:#292c2f;
+    color: white;
+    font-size: 15px;
+    padding: 60px 0 20px;
+}   
+.footer p {
+    color: #8a8a8a;
+}
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2 .footer-col-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 35%;
+    color: #bbbbbbbb;
+}
+.footer-col-1 ul li a{
+    color: #bbbbbbbb;
+    filter: grayscale(100%);
+}
+.footer-col-1 ul li a:hover {
+    color: white;
+    filter: grayscale(0);
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+   
+}
+.footer-col-2 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.footer-col-2 ul li a img{
+    
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    margin: 5px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 2px;
+    margin: 10px 0px;
+}
+.copyright{
+    text-align: center;
+}
