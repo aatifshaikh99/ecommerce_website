@@ -23,11 +23,11 @@
             <div class="container">
                 <div class="navbar">
                     <div class="logo">
-                        <a href="#"><img src="AS_logo.png" width="120px"></a>
+                        <a href="#"><img src="./Static/AS_logo.png" width="120px"></a>
                     </div>
                     <!----------- navigatin bar ----------->
                     <nav>
-                        <ul>
+                        <ul id="MenuItems">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Project</a></li>
                             <li><a href="#">Abouts</a></li>
@@ -35,6 +35,8 @@
                             <li><a href="#">Contacts</a></li>
                         </ul>
                     </nav>
+                    
+                    <img src="./Static/menu.png" class="menu-icon" onclick="menutoggle()">
                 </div>
                 <a class="enquiry" href="#">Enquiry</a>
                 <div class="row">
@@ -44,7 +46,7 @@
                         <a href="#" class="btn">Explore Now &#8594; </a>
                     </div>
                     <div class="col-2">
-                        <img src="project.jpg" alt="">
+                        <img src="./static/project.jpg" >
                     </div>
                 </div>
             </div>
@@ -57,17 +59,15 @@
             <div class="small-container">
                 <div class="row">
                     <div class="col-3">
-                        <img src="building.jpg">
+                        <img src="./Static/building.jpg">
                     </div>
                     <div class="col-3">
-                        <img src="Apartment.jpg">
+                        <img src="./Static/Apartment.jpg">
                     </div>
                     <div class="col-3">
-                        <img src="apartment-2.jpeg">
+                        <img src="./Static/apartment-2.jpeg">
                     </div>
-                    <!-- <div class="col-3">
-                        <img src="Apartment.jpg">
-                    </div> -->
+                   
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@
             <h2 class="sale">Flat for Sale</h2>
             <div class="row">
                 <div class="col-4">
-                    <img src="building-3.jpg">
+                    <img src="./Static/building-3.jpg">
                     <h4>1BHK Flat</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -93,7 +93,7 @@
                     </div>
                 </div>
                 <div class="col-4">
-                    <img src="building-4.jpg">
+                    <img src="./Static/building-4.jpg">
                     <h4>2BHK Flat</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div class="col-4">
-                    <img src="rowhouse.jpeg">
+                    <img src="./Static/rowhouse.jpeg">
                     <h4>1BHK Rowhouse</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <div class="col-4">
-                    <img src="rowhouse-1.jpg">
+                    <img src="./Static/rowhouse-1.jpg">
                     <h4>1BHK Rowhouse</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -147,21 +147,21 @@
             <h2 class="sale">Upcoming Project</h2>
             <div class="row">
                 <div class="col-5">
-                    <img src="1bhk.jpeg">
+                    <img src="./Static/1bhk.jpeg">
                     <h4>1BHK Flat</h4>
                     <p>Cooming Soon</p><br>
                     <div class="button-1">
                         <button type="button" value="details" id="det">More details</Details></button>&nbsp;&nbsp;
-                        <button type="menu" value="booking" id="book">Book Now</button>
+                        <button type="menu" value="booking" id="book">Pre Book Now</button>
                     </div>
                 </div>
                 <div class="col-5">
-                    <img src="2BHK.jpg">
+                    <img src="./Static/2BHK.jpg">
                     <h4>2BHK Flat</h4>
                     <p>Cooming Soon</p><br>
                     <div class="button-1">
                         <button type="button" value="details" id="det">More details</Details></button>&nbsp;&nbsp;
-                        <button type="menu" value="booking" id="book">Book Now</button>
+                        <button type="menu" value="booking" id="book">Pre Book Now</button>
                     </div>
                 </div>
             </div>
@@ -182,7 +182,7 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <img src="K.png">
+                        <img src="./Static/K.png">
                         <h3>Shah Kashif</h3>
                     </div>
                     <div class="col-3">
@@ -197,7 +197,7 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <img src="sample-profile.png">
+                        <img src="./Static/sample-profile.png">
                         <h3>Shaikh Rehan</h3>
                     </div>
                     <div class="col-3">
@@ -212,7 +212,8 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-                        <img src="GK.png">
+        
+                        <img src="./Static/GK.png">
                         <h3>Gulam Khawja</h3>
                     </div>
                 </div>
@@ -256,11 +257,11 @@
                         <h3>Follow us</h3>
                         <p>Follow us on social media and stay updated about compay.</p>
                         <ul>
-                            <li><a href="mailto:aatifshaikh821@gmail.com"><img src="Gmail_Logo.png"></a></li>
+                            <li><a href="mailto:aatifshaikh821@gmail.com"><img src="./Static/Gmail_Logo.png"></a></li>
                             <li><a href="https://www.linkedin.com/in/aatif-shaikh-605618209"><img
-                                        src="Linkedin-logo.png"></a></li>
-                            <li><a href="https://www.instagram.com/aatifmshaikh/"><img src="insta.png"> </a></li>
-                            <li><a href="https://youtube.com/c/TechnicalAnalysisNSE"><img src="youtube.png"></a></li>
+                                        src="./Static/Linkedin-logo.png"></a></li>
+                            <li><a href="https://www.instagram.com/aatifmshaikh/"><img src="./Static/insta.png"> </a></li>
+                            <li><a href="https://youtube.com/c/TechnicalAnalysisNSE"><img src="./Static/youtube.png"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -269,6 +270,25 @@
             </div>
         </div>
     </footer>
+  
+      <!-- ------- js for toggle menu ------- -->
+      
+      <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px" ;
+
+        function menutoggle() {
+            if(MenuItems.style.maxHeight == "0px")
+            {
+               MenuItems.style.maxHeight == "200px"  ;
+            }
+            else{
+                MenuItems.style.maxHeight == "0px"
+            }
+ 
+        }
+      </script>
 
 </body>
 
