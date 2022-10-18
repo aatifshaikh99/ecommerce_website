@@ -12,21 +12,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Project</title>
-<script>
-    var MenuItems = document.getElementById("MenuItems");
 
-    MenuItems.style.maxHeight = "0px";
-
-    function menutoggle() {
-        if (MenuItems.style.maxHeight == "0px") {
-            MenuItems.style.maxHeight == "200px";
-        }
-        else {
-            MenuItems.style.maxHeight == "0px"
-        }
-
-    }
-</script>
 </head>
 <!--------- civil engg related page ---------->
 
@@ -49,7 +35,7 @@
                             <li><a href="#">Contacts</a></li>
                         </ul>
                     </nav>
-                    
+
                     <img src="./Static/menu.png" class="menu-icon" onclick="menutoggle()">
                 </div>
                 <a class="enquiry" href="#">Enquiry</a>
@@ -60,7 +46,7 @@
                         <a href="#" class="btn">Explore Now &#8594; </a>
                     </div>
                     <div class="col-2">
-                        <img src="./Static/tag_line_right.jpg" >
+                        <img src="./Static/tag_line_right.jpg">
                     </div>
                 </div>
             </div>
@@ -81,7 +67,7 @@
                     <div class="col-3">
                         <img src="./Static/apartment-2.jpeg">
                     </div>
-                   
+
                 </div>
             </div>
         </div>
@@ -226,7 +212,7 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-o"></i>
                         </div>
-        
+
                         <img src="./Static/GK.png">
                         <h3>Gulam Khawja</h3>
                     </div>
@@ -274,8 +260,10 @@
                             <li><a href="mailto:aatifshaikh821@gmail.com"><img src="./Static/Gmail_Logo.png"></a></li>
                             <li><a href="https://www.linkedin.com/in/aatif-shaikh-605618209"><img
                                         src="./Static/Linkedin-logo.png"></a></li>
-                            <li><a href="https://www.instagram.com/aatifmshaikh/"><img src="./Static/insta.png"> </a></li>
-                            <li><a href="https://youtube.com/c/TechnicalAnalysisNSE"><img src="./Static/youtube.png"></a></li>
+                            <li><a href="https://www.instagram.com/aatifmshaikh/"><img src="./Static/insta.png"> </a>
+                            </li>
+                            <li><a href="https://youtube.com/c/TechnicalAnalysisNSE"><img
+                                        src="./Static/youtube.png"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -284,10 +272,25 @@
             </div>
         </div>
     </footer>
-  
-      <!-- ------- js for toggle menu ------- -->
-      
-     
+
+    <!-- ------- js for toggle menu ------- -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                console.log("click")
+               MenuItems.style.maxHeight = "550px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+
+        }
+    </script>
+
 
 </body>
 
